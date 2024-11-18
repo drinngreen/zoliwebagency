@@ -84,10 +84,16 @@ export default function Hero({ onPackageSelect }: HeroProps) {
       
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center mb-16">
-          <div className="inline-flex items-center px-3 py-1 rounded-full border border-[#2cd4bd] bg-[#2cd4bd]/10 mb-8">
-            <Sparkles className="h-4 w-4 text-[#2cd4bd] mr-2" />
-            <span className="text-sm text-[#2cd4bd] hover-glow">Leader nello sviluppo digitale</span>
-          </div>
+        <a 
+            href="https://zoliweb-gold.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer" 
+            className="inline-flex items-center px-3 py-1 rounded-full border border-[#ffd900] bg-[#ffd900]/10 mb-8"
+          >
+            <Sparkles className="h-4 w-4 text-[#ffd900] mr-2" />
+            <span className="text-sm text-[#ffd900] hover-glow">Scopri i nostri servizi gold</span>
+          </a>
+      
           
           <h1 className="hero-title text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-tight mb-6">
             <span className="text-[#2cd4bd] magnify-text relative overflow-hidden">
